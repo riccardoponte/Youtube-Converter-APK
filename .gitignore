@@ -1,0 +1,33 @@
+*.iml
+.gradle
+.kotlin
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+.env
+debug.keystore
+
+# --- Build Android ---
+/app/build/
+**/build/
+*.apk
+*.aab
+*.apk.idsig
+*.dex
+*.ap_
+# --- Cache locali / strumenti ---
+.freebuff/
+node_modules/
+.cxx/
+# --- Binari di lavoro non pertinenti ---
+/yt-dlp

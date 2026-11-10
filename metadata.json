@@ -1,0 +1,6 @@
+{
+  "name": "TubeConvert",
+  "description": "Applicazione minimal per la conversione e il download di video YouTube in formato MP3 e MP4.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

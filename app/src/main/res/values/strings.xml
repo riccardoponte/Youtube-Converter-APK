@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TubeConvert</string>
+    <string name="title_paste_links">Incolla link YouTube</string>
+    <string name="hint_input_links">Incolla uno o più link YouTube (uno per riga)…</string>
+    <string name="btn_paste">Incolla</string>
+    <string name="btn_add">Aggiungi</string>
+    <string name="btn_clear">Cancella</string>
+    <string name="tab_convert">Converti</string>
+    <string name="tab_downloads">Download</string>
+    <string name="tab_history">Cronologia</string>
+    <string name="format_mp3">Audio M4A</string>
+    <string name="format_mp4">Video MP4</string>
+    <string name="action_convert_all">Converti e Scarica</string>
+    <string name="empty_queue">Nessun video in coda. Incolla un link YouTube sopra!</string>
+    <string name="empty_downloads">Nessun download completato finora.</string>
+</resources>
