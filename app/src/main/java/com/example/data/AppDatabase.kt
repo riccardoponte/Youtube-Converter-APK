@@ -5,7 +5,7 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 
-@Database(entities = [DownloadedItemEntity::class], version = 1, exportSchema = false)
+@Database(entities = [DownloadedItemEntity::class], version = 2, exportSchema = false)
 abstract class AppDatabase : RoomDatabase() {
     abstract fun downloadDao(): DownloadDao
 
@@ -19,7 +19,11 @@ abstract class AppDatabase : RoomDatabase() {
                     context.applicationContext,
                     AppDatabase::class.java,
                     "tubeconvert_db"
-                ).build()
+                )
+                    // La libreria è solo un elenco dei file già presenti sul dispositivo:
+                    // se cambia lo schema conviene ricrearla invece di migrare i dati.
+                    .fallbackToDestructiveMigration()
+                    .build()
                 INSTANCE = instance
                 instance
             }
